@@ -26,3 +26,47 @@ img:nth-child(4) {
   display: none;
 }
 
+@media only screen and (min-width: 25em) {
+
+  img {
+    width: 49%;
+  }
+
+  img:nth-child(2),
+  img:nth-child(4) {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    width: 32%;
+  }
+
+  img:nth-child(1) {
+    display: none;
+  }
+
+  img:nth-child(2),
+  img:nth-child(4) {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    width: 24%;
+    transform: translateX(5%);
+  }
+
+  img:nth-child(1),
+  img:nth-child(2),
+  img:nth-child(4) {
+    display: inline-block;
+  }
+
+}
